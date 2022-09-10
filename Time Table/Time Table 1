@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.min.css" integrity="sha512-Z6UIAdEZ7JNzeX5M/c5QZj+oqbldGD+E8xJEoOwAx5e0phH7kdjsWULGeK5l2UjehKtChHDaUY2rQAF/NEiI9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        table, th, td {
+          border: 2px solid black;
+          border-collapse: collapse;
+        }
+        td{
+            height: 10pc;
+            width: 10pc;
+        }
+        th{
+            height: 40px;
+        }
+        #red{
+            background-color: rgb(199, 116, 116);
+        }
+        #blue{
+            background-color: rgb(132, 132, 230);
+        }
+        #green{
+            background-color: green;
+        }
+    </style>
+</head>
+<body class="w3-grey">
+    
+    <table class="w3-margin w3-centered">
+        <caption class="w3-large w3-margin w3-large"><h1>Time Table</h1></caption>
+        <tr class="w3-green">
+            <th></th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-01:00</th>
+            <th>01:00-02:00</th>
+            <th>02:00-03:00</th>
+            <th>03:00-04:00</th>
+            <th>04:00-05:00</th>
+            <th>05:00-06:00</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td id="red">MATH-GT-I-109-SKS</td>
+            <td id="red">MATH-GT-I-109-SKS</td>
+            <td id="red">MATH--109-</td>
+            <td></td>
+            <td colspan="2" id="blue">1. MATH-MC-COMP. LAB-4-BG <br>
+                <-----------------------> <br>
+                2. MATH-MC-COMP. LAB-4-VAN <br>
+                <-----------------------><br>
+                3. MATH-MC-COMP. LAB-4-KP <br>
+                <-----------------------><br>
+                4. MATH-MC-COMP. LAB-4-SV
+            </td>
+            <td colspan="2" id="blue">1. CS--GE LAB-YK<br>
+                <-----------------------><br>
+                2. CS--GE LAB-KKS<br>
+                <-----------------------><br>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2" id="blue">1. MATH-MC-COMP. LAB-4-SAT<br>
+                <-----------------------><br>
+                2. MATH-MC-COMP. LAB-4-SMD<br>
+                <-----------------------><br>
+                3. MATH-MC-COMP. LAB-4-MBR<br>
+                <-----------------------><br>
+                4. MATH-MC-COMP. LAB-4-DEE<br>
+                <-----------------------><br>
+            </td>
+            <td id="red">MATH-TRF-210-UKS</td>
+            <td>MATH-DE-10-DEE</td>
+            <td></td>
+            <td>MATH-L&H-210-MUK</td>
+            <td id="red">MATH-GT-I-210-MKM</td>
+            <td id="red">MATH--210-</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td id="red">MATH-GT-I-207-MKM</td>
+            <td id="red">MATH-TRF-210-UKS</td>
+            <td>MATH--DR_MATHS-</td>
+            <td>MATH-DE-10-DEE</td>
+            <td id="red">MATH-MC-108-BG</td>
+            <td id="red">MATH-MC-108-BG</td>
+            <td id="green">MATH--210-</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thurshday</td>
+            <td id="red">MATH-GT-I-207-MKM</td>
+            <td id="red">MATH-TRF-210-UKS</td>
+            <td id="red">MATH-MC-108-BG</td>
+            <td>MATH-DE-10-DEE</td>
+            <td id="green">MATH--DR_MATHS-</td>
+            <td id="red">MATH-L&H-210-MUK</td>
+            <td colspan="2" id="blue">1. CS--GE LAB-YK<br>
+                <-----------------------><br>
+                2. CS--GE LAB-KKS<br>
+                <-----------------------><br>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td id="red">MATH-GT-I-207-MKM</td>
+            <td id="red">MATH-TRF-210-UKS</td>
+            <td id="red">MATH-TRF-210-UKS</td>
+            <td>MATH-DE-10-DEE</td>
+            <td id="green">MATH--DR_MATHS-</td>
+            <td id="red">MATH-MC-108-BG</td>
+            <td colspan="2" id="blue">1. MATH-L&H-COMP. LAB-4-MUK <br>
+                <-----------------------><br>
+                2. MATH-L&H-COMP. LAB-4-NK<br>
+                <-----------------------><br>
+                3. MATH-L&H-COMP. LAB-4-SKS<br>
+                <-----------------------><br>
+                4. MATH-L&H-COMP. LAB-4-SAT<br>
+                <-----------------------><br>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td colspan="4">1. MATH-DE-GE LAB-DEE<br>
+                <-----------------------><br>
+                2. MATH-DE-GE LAB-MKM<br>
+                <-----------------------><br>
+                3. MATH--GE LAB-<br>
+                <-----------------------><br>
+            </td>
+            <td>MATH-GT-I-109-MKM</td>
+            <td>MATH--109-</td>
+            <td colspan="2" id="blue">1. MATH-L&H-COMP. LAB-4-A<br>
+                <-----------------------><br>
+                2. MATH-L&H-COMP. LAB-4-SAT<br>
+                <-----------------------><br>
+                3. MATH--COMP. LAB-4-<br>
+                <-----------------------><br>
+                4. MATH--COMP. LAB-4-<br>
+                <-----------------------><br>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
